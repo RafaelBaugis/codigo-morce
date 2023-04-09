@@ -77,10 +77,6 @@ if __name__ == "__main__" :
     label2.grid(row = 2, column = 0, padx = 10)
     label3.grid(row = 3, column = 0, padx = 10)
     label4.grid(row = 5, column = 0, padx = 10)
-    def uppercase():
-        Text = language1_field.get("1.0", "end-1c")
-        language2_field.delete("1.0", END)
-        language2_field.insert(END,Text.upper())
     language1_field = Text(root, height = 9, width = 70, font = "lucida 13")
     language2_field = Text(root, height = 9, width = 70, font = "lucida 13")
     language1_field.grid(row = 1, column = 1, padx = 10, pady = 10)
